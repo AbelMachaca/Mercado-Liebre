@@ -1,0 +1,58 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap');
+
+
+:root {
+    --Amarillo: #EAC926;
+    --Azul: #03264C;
+    --Azul-claro: #1259c3;
+    --Gris-claro: #ebebeb;
+    --Verde: #39b54a;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--Gris-claro);   
+}
+.main_titulos{
+    font-size: 24px;
+}
+.precio{
+    font-size: 18px;
+}
+main{
+    margin: 0 auto;
+    width: 90%;
+}
+main h4{
+    font-size: 15px;
+}
+main p {
+    font-size: 15px;
+}
+main img {
+    width: 100%;
+}
+footer{
+    text-align: center;
+    padding: 30px;
+    margin:10px;
+    background-color:rgb(255, 255, 255);
+}
+footer i {
+    font-size: 2em;
+    color:var(--Celeste);
+    margin-bottom: 20px;
+}
+footer article{
+    margin-bottom: 40px;
+}
